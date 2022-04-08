@@ -5,29 +5,29 @@ export const navItems: INavData[] = [
     name: 'Dashboard',
     url: '/dashboard',
     icon: 'icon-speedometer',
-    badge: {
-      variant: 'info',
-      text: 'NEW'
-    }
+    // badge: {
+    //   variant: 'info',
+    //   text: 'NEW'
+    // }
   },
   {
     name: 'Add Products',
     url: '/addProduct',
     icon: 'icon-basket-loaded',
-    badge: {
-      variant: 'info',
-      text: 'NEW'
-    }
+    // badge: {
+    //   variant: 'info',
+    //   text: 'NEW'
+    // }
   },
   // {
   //   title: true,
   //   name: 'Theme'
   // },
-  // {
-  //   name: 'Colors',
-  //   url: '/theme/colors',
-  //   icon: 'icon-drop'
-  // },
+  {
+    name: 'Colors',
+    url: '/theme/colors',
+    icon: 'icon-drop'
+  },
   // {
   //   name: 'Typography',
   //   url: '/theme/typography',
